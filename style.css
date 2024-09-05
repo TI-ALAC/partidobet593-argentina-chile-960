@@ -25,6 +25,32 @@ img {
     overflow: hidden;
 }
 
+#title1,
+#title2,
+#title3 {
+    font-size: 70pt !important;
+    font-family: 'Roboto';
+    position: absolute;
+}
+
+#title1 {
+    color: #fff;
+    left: 53.5%;
+    top: 72%;
+}
+
+#title2 {
+    color: #0f0f88;
+    left: 67.5%;
+    top: 72%;
+}
+
+#title3 {
+    color: #fff;
+    left: 82.5%;
+    top: 72%;
+}
+
 /* Estilos para pantallas de hasta 768px */
 @media only screen and (max-width: 960px) {
 
@@ -38,7 +64,7 @@ img {
 
     #title1 {
         color: #fff;
-        left: 53.5%;
+        left: 52.5%;
         top: 72%;
     }
 
@@ -50,7 +76,7 @@ img {
 
     #title3 {
         color: #fff;
-        left: 82.5%;
+        left: 81.5%;
         top: 72%;
     }
 }
